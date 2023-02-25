@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(29, 29, 29);
+    font-family: 'poppins', sans-serif;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#text {
+    background-color: gray;
+    color: white;
+    padding: 15px;
+}
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: bisque;
+    color: black;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#controls {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+button {
+    background-color: aquamarine;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#stats {
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+}
+
+#monsterStats {
+    display: none;
+    border: 1px solid black;
+    color: white;
+    padding: 5px;
+    background-color: red;
+}
+
+.stat {
+    padding-right: 10px;
+}
